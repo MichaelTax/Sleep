@@ -22,6 +22,12 @@ while True:
     sleep()
     sys.exit()
 
+# To work you and your phone/PC from whom you'd like to initiate the sleep function have to be in the same network.
+# Win + R and a Windows pop-up will pop there you'd write the following text - %appdata%\Microsoft\Windows\Start Menu\Programs\Startup.
+# from there you would simply drag and drop the python script into the folder and now every time the PC boots the code is running and listening.
+
+#This code is listening to all IPs so it is enough to just type localhost:4444 to start the code.
+
 
 
 
